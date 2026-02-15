@@ -1,4 +1,4 @@
-# PORTAL_AUTH_CANONICAL.md
+# PORTAL_AUTH_SPEC.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  

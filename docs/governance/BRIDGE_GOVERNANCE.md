@@ -88,8 +88,8 @@ Qualquer duplicação local foi REMOVIDA para evitar drift.
 3. Documentos deste módulo (Portal) — somente se não conflitarem
 
 **Escopo Portal-específico** (UI/UX, Instance config):
-1. `docs/governance/PORTAL_ARCH_CANONICAL.md` — Arquitetura local
-2. `docs/governance/INSTANCE_1_DEV_CANONICAL.md` / `INSTANCE_2_CI_CANONICAL.md` — Setup específico
+1. `docs/governance/PORTAL_ARCH_SPEC.md` — Arquitetura local
+2. `docs/governance/INSTANCE_1_DEV_LOCAL_POLICY.md` / `INSTANCE_2_CI_LOCAL_POLICY.md` — Setup específico
 3. Governança transversal (se aplicável)
 
 Ver: `../QIM_EDGE_GOVERNANCE/docs/governance/PRECEDENCE_RULES.md`
@@ -101,11 +101,11 @@ Ver: `../QIM_EDGE_GOVERNANCE/docs/governance/PRECEDENCE_RULES.md`
 Ao desenvolver no Portal:
 
 ### Instância 1 — Local (Estrutura)
-1. `docs/governance/CANONICAL_INDEX_PORTAL.md` — Mapa de SSOT local
-2. `docs/governance/PORTAL_ARCH_CANONICAL.md` — Arquitetura
-3. `docs/governance/PORTAL_AUTH_CANONICAL.md` — Autenticação (se mexer em auth)
-4. `docs/governance/PORTAL_API_CONTRACT_CANONICAL.md` — API Client (se mexer em API)
-5. `docs/governance/INSTANCE_1_DEV_CANONICAL.md` — Setup local
+1. `docs/governance/PORTAL_INDEX_SPEC.md` — Mapa de SSOT local
+2. `docs/governance/PORTAL_ARCH_SPEC.md` — Arquitetura
+3. `docs/governance/PORTAL_AUTH_SPEC.md` — Autenticação (se mexer em auth)
+4. `docs/governance/PORTAL_API_CONTRACT_SPEC.md` — API Client (se mexer em API)
+5. `docs/governance/INSTANCE_1_DEV_LOCAL_POLICY.md` — Setup local
 
 ### Instância 2 — Transversal (Governança)
 1. `../QIM_EDGE_GOVERNANCE/docs/governance/CANONICAL_INDEX.md` ⭐⭐⭐

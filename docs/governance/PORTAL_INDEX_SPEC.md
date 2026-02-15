@@ -1,4 +1,4 @@
-# CANONICAL_INDEX_PORTAL.md
+# PORTAL_INDEX_SPEC.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  
@@ -23,24 +23,24 @@ Mapa único de verdade para o Portal. Define:
 
 | Documento | Escopo | Autoridade | Quando Ler |
 |-----------|--------|-----------|-----------|
-| **CANONICAL_INDEX_PORTAL.md** | Este arquivo | 1ª (você está aqui) | Sempre começar por aqui |
-| **PORTAL_ARCH_CANONICAL.md** | Componentes, responsabilidades, separação | 1ª | Para entender arquitetura |
-| **PORTAL_AUTH_CANONICAL.md** | SessionProvider, token, logout | 1ª | Para trabalhar com autenticação |
-| **PORTAL_API_CONTRACT_CANONICAL.md** | Cliente HTTP, baseURL, interceptors | 1ª | Para consumir endpoints |
+| **PORTAL_INDEX_SPEC.md** | Este arquivo | 1ª (você está aqui) | Sempre começar por aqui |
+| **PORTAL_ARCH_SPEC.md** | Componentes, responsabilidades, separação | 1ª | Para entender arquitetura |
+| **PORTAL_AUTH_SPEC.md** | SessionProvider, token, logout | 1ª | Para trabalhar com autenticação |
+| **PORTAL_API_CONTRACT_SPEC.md** | Cliente HTTP, baseURL, interceptors | 1ª | Para consumir endpoints |
 
 ### Instância 2 — Nível Operacional (Deploy, Dev)
 
 | Documento | Escopo | Autoridade | Quando Ler |
 |-----------|--------|-----------|-----------|
-| **INSTANCE_1_DEV_CANONICAL.md** | Setup local, npm run dev | 1ª | Para rodar em máquina |
-| **INSTANCE_2_CI_CANONICAL.md** | Build checks, lint, deploy | 1ª | Para CI/CD e produção |
+| **INSTANCE_1_DEV_LOCAL_POLICY.md** | Setup local, npm run dev | 1ª | Para rodar em máquina |
+| **INSTANCE_2_CI_LOCAL_POLICY.md** | Build checks, lint, deploy | 1ª | Para CI/CD e produção |
 
 ### Instância 3 — UI/UX (Futuro)
 
 | Documento | Status | Roadmap |
 |-----------|--------|---------|
-| **PORTAL_UI_UX_CANONICAL.md** | 👷 Em escopo | Sprint N+2 |
-| **PORTAL_ROUTING_CANONICAL.md** | 👷 Em escopo | Sprint N+1 |
+| **PORTAL_UI_UX_SPEC.md** | 👷 Em escopo | Sprint N+2 |
+| **PORTAL_ROUTING_SPEC.md** | 👷 Em escopo | Sprint N+1 |
 
 ---
 
@@ -66,7 +66,7 @@ O Portal consome governança centralizada de `QIM_EDGE_GOVERNANCE`:
 3. `docs/governance/PORTAL_*` (somente se não conflitar com transversal)
 
 **Escopo Portal** (Roteamento, componentes, UI):
-1. `docs/governance/PORTAL_ARCH_CANONICAL.md`
+1. `docs/governance/PORTAL_ARCH_SPEC.md`
 2. Governança transversal (se aplicável)
 
 ---
@@ -75,13 +75,13 @@ O Portal consome governança centralizada de `QIM_EDGE_GOVERNANCE`:
 
 Antes de trabalhar no Portal:
 
-- [ ] Li este arquivo (CANONICAL_INDEX_PORTAL.md)
+- [ ] Li este arquivo (PORTAL_INDEX_SPEC.md)
 - [ ] Li QIM_EDGE_GOVERNANCE/CANONICAL_INDEX.md (transversal)
-- [ ] Li PORTAL_ARCH_CANONICAL.md (arquitetura local)
-- [ ] (Se autenticação) Li PORTAL_AUTH_CANONICAL.md
-- [ ] (Se chamar API) Li PORTAL_API_CONTRACT_CANONICAL.md
-- [ ] (Se rodar local) Li INSTANCE_1_DEV_CANONICAL.md
-- [ ] (Se fazer build/deploy) Li INSTANCE_2_CI_CANONICAL.md
+- [ ] Li PORTAL_ARCH_SPEC.md (arquitetura local)
+- [ ] (Se autenticação) Li PORTAL_AUTH_SPEC.md
+- [ ] (Se chamar API) Li PORTAL_API_CONTRACT_SPEC.md
+- [ ] (Se rodar local) Li INSTANCE_1_DEV_LOCAL_POLICY.md
+- [ ] (Se fazer build/deploy) Li INSTANCE_2_CI_LOCAL_POLICY.md
 
 ---
 
@@ -122,7 +122,7 @@ Antes de trabalhar no Portal:
 ### Sprint N+2
 
 - [ ] D-PORTAL-TOKENS-01: Design tokens + Branding
-- [ ] PORTAL_UI_UX_CANONICAL.md
+- [ ] PORTAL_UI_UX_SPEC.md
 
 ---
 

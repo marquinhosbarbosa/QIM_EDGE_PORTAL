@@ -1,4 +1,4 @@
-# PORTAL_ARCH_CANONICAL.md
+# PORTAL_ARCH_SPEC.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  

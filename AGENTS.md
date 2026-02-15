@@ -40,14 +40,14 @@ Em caso de conflito entre frontend e backend: **backend vence** (backend é SSOT
 Antes de qualquer tarefa:
 
 **Instância 1 — Estrutura Local**:
-1. [docs/governance/CANONICAL_INDEX_PORTAL.md](docs/governance/CANONICAL_INDEX_PORTAL.md) — Mapa de SSOT
-2. [docs/governance/PORTAL_ARCH_CANONICAL.md](docs/governance/PORTAL_ARCH_CANONICAL.md) — Arquitetura
-3. [docs/governance/PORTAL_AUTH_CANONICAL.md](docs/governance/PORTAL_AUTH_CANONICAL.md) — Autenticação (se mexer em auth)
-4. [docs/governance/PORTAL_API_CONTRACT_CANONICAL.md](docs/governance/PORTAL_API_CONTRACT_CANONICAL.md) — API Client (se mexer em API)
-5. [docs/governance/INSTANCE_1_DEV_CANONICAL.md](docs/governance/INSTANCE_1_DEV_CANONICAL.md) — Setup local
+1. [docs/governance/PORTAL_INDEX_SPEC.md](docs/governance/PORTAL_INDEX_SPEC.md) — Mapa de SSOT
+2. [docs/governance/PORTAL_ARCH_SPEC.md](docs/governance/PORTAL_ARCH_SPEC.md) — Arquitetura
+3. [docs/governance/PORTAL_AUTH_SPEC.md](docs/governance/PORTAL_AUTH_SPEC.md) — Autenticação (se mexer em auth)
+4. [docs/governance/PORTAL_API_CONTRACT_SPEC.md](docs/governance/PORTAL_API_CONTRACT_SPEC.md) — API Client (se mexer em API)
+5. [docs/governance/INSTANCE_1_DEV_LOCAL_POLICY.md](docs/governance/INSTANCE_1_DEV_LOCAL_POLICY.md) — Setup local
 
 **Instância 2 — Build/Deploy**:
-- [docs/governance/INSTANCE_2_CI_CANONICAL.md](docs/governance/INSTANCE_2_CI_CANONICAL.md) — CI/CD checks
+- [docs/governance/INSTANCE_2_CI_LOCAL_POLICY.md](docs/governance/INSTANCE_2_CI_LOCAL_POLICY.md) — CI/CD checks
 
 **Transversal (Lido de QIM_EDGE_GOVERNANCE)**:
 1. `../QIM_EDGE_GOVERNANCE/docs/governance/CANONICAL_INDEX.md`
@@ -135,7 +135,7 @@ Todos os gates abaixo foram **COMPLETOS**:
 
 Ao finalizar **qualquer** tarefa no Portal:
 
-- [ ] Li [CANONICAL_INDEX_PORTAL.md](docs/governance/CANONICAL_INDEX_PORTAL.md)
+- [ ] Li [PORTAL_INDEX_SPEC.md](docs/governance/PORTAL_INDEX_SPEC.md)
 - [ ] Li documento relevante (ARCH, AUTH, API, etc.) conforme tarefa
 - [ ] Build passa: `npm run build` (TypeScript + Vite)
 - [ ] Lint passa: `npm run lint` (zero warnings)

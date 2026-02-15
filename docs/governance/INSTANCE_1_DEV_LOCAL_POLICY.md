@@ -1,4 +1,4 @@
-# INSTANCE_1_DEV_CANONICAL.md
+# INSTANCE_1_DEV_LOCAL_POLICY.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  

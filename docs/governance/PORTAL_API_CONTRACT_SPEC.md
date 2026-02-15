@@ -1,4 +1,4 @@
-# PORTAL_API_CONTRACT_CANONICAL.md
+# PORTAL_API_CONTRACT_SPEC.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  

@@ -1,4 +1,4 @@
-# INSTANCE_2_CI_CANONICAL.md
+# INSTANCE_2_CI_LOCAL_POLICY.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  

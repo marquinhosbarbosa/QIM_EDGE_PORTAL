@@ -1,4 +1,4 @@
-# PORTAL_UI_UX_CANONICAL.md
+# PORTAL_UI_UX_SPEC.md
 
 **Data**: 2026-02-14  
 **Versão**: 1.0.0  
